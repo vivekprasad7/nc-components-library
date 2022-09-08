@@ -5,6 +5,7 @@
     --primary:#6EE7B7;
     --gray: #F3F4F6;
     --dark-gray:#6B7280;
+    --slate:#1f2937;
 }
 
 body {
@@ -59,23 +60,27 @@ hr {
 .navigation {
     background-color: var(--primary);
     padding: 1rem 0rem;
-    color: white;
-    border-bottom-left-radius: 1rem;
+    color: black;
+    border-radius: 2rem;
 }
 
 .navigation .brand {
     font-weight: bold;
+    text-align: center;
+    font-size: 1.1rem;
+    padding-top: 1rem;
     
 }
 
 .navigation ul {
     list-style: none;
-    text-align: right;
+    text-align: center;
+    padding-left: 0rem;
 }
 
 .navigation li {
     display: inline-block;
-    padding: 0rem 0.8rem;;
+    padding: 0rem 2.5rem;
 }
 
 .navigation a {
@@ -106,12 +111,13 @@ hr {
     padding: 2rem 0rem;
 }
 
-.section h2 {
+.section {
     text-align: center;
 }
 
 .ow {
     background-color: var(--gray);
+    border-radius: 1rem;
 }
 
 
@@ -123,21 +129,22 @@ hr {
 
 .list-inline li {
     display: inline;
-    padding: 0rem 0.5rem;
+    padding: 0rem 1rem;
 }
 
 
 /** footer **/
 .footer {
-    background-color: var(--primary);
+    background-color: var(--slate);
     color: white;
-    padding: 2rem 0rem;
-    border-top-right-radius: 1rem;
+    padding: 2rem 2rem 4rem 2rem;
+    border-radius: 1rem;
     text-align: center;
 }
 .footer .heading {
     font-weight: bold;
     font-size: larger;
+    padding: 1rem 2rem;
   
 }
 
